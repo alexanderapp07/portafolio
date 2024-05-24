@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Mi Portafolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <p>Hola, soy <strong>Alexander Aparicio</strong>, egresado de Ingeniería de Sistemas Informáticos con
+                destrezas en programación, análisis de sistemas y gestión de bases de datos. Poseo conocimientos en
+                desarrollo web e implementación de metodologías ágiles y en la automatización de procesos para alcanzar
+                soluciones informáticas eficientes.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <div class="project-grid">
+                <div class="project-card" data-project="1">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="images/cygnus.png" alt="Cygnus" height="350">
+                            <h3>Sistema informático para el apoyo a la producción de serigrafía en Cygnus Investments
+                                S.A. DE C.V.</h3>
+                        </div>
+                        <div class="card-body" style="padding-bottom: 40px;">
+                            <p>Sistema informático para optimizar y gestionar de manera eficiente el proceso de
+                                producción de serigrafía de camisetas. El sistema se divide en módulos interconectados
+                                que se encargan de cada etapa del proceso, permitiendo un seguimiento y control
+                                detallado.</p>
+                        </div>
+                        <div class="card-footer">
+                            <p><strong>Tecnologías utilizadas:</strong> PHP/Laravel y MariaDB</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="project-card" data-project="2">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="images/cayaguanca.png" alt="Cayaguanca" height="350">
+                            <h3>Diagramación, Diseño y desarrollo de sitio web de Asociación de Municipios Cayaguanca</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>El sitio web cuenta con una serie de módulos diseñados para garantizar la seguridad de la
+                                información, facilitar la administración eficiente y ofrecer una experiencia interactiva a los
+                                usuarios. A través de esta plataforma, los visitantes podrán acceder a las publicaciones,
+                                informarse sobre los eventos programados y los proyectos en curso.</p>
+                        </div>
+                        <div class="card-footer">
+                            <p><strong>Tecnologías utilizadas:</strong> PHP/Laravel, JavaScript y MariaDB</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-grid" style="margin-top: 25px;">
+                <div class="project-card" data-project="3">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="images/HireLink.png" alt="HireLink" height="350">
+                            <h3>Backend para Sistema de Bolsa de Trabajo HireLink</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Diseño de base de datos y desarrollo del backend para almacenar
+                                y gestionar los volúmenes de datos para la automatización de los procesos: gestión de empresas,
+                                oferta de puestos de trabajo y registro de candidatos. Además, la base de datos incluye soporte
+                                para la gestión de roles dinámicos, gestión de usuarios, y activación y bloqueo de usuarios.</p>
+                        </div>
+                        <div class="card-footer">
+                            <p><strong>Tecnologías utilizadas:</strong> Java/Spring Boot y PostgreSQL</p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="project-card" data-project="4">
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="images/tianas.png" alt="Tiana's Boutique" height="350">
+                            <h3>Tiana's Boutique </h3>
+                        </div>
+                        <div class="card-body" style="padding-bottom: 75px;">
+                            <p>Sistema informático para la optimización y gestión de pedidos para la venta de ropa y variedades online de la micro empresa bajo el nombre de Tiana's Boutique. Funcionalidades incluidas: gestión de usuarios, solicitud de pedido, entrega de productos, gestión de catálogos, gestión de categorias</p>
+                        </div>
+                        <div class="card-footer">
+                            <p><strong>Tecnologías utilizadas:</strong> PHP/Laravel, JavaScript y MariaDB</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alexander Aparicio</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
